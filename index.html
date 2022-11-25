@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Project</title>
+    <link rel="stylesheet" href="style.css">
+    
+    
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li class="brand"><img src="logo.png" alt="No Img" >Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+            <li>Library</li>
+            <li>Favourites</li>
+
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Best of NCS - No Copyright Music</h1>
+        <div class="songlist">
+            <div class="songitem">
+                <img src="/covers/1.jpg" alt="1">
+                <span>It's Always Blue</span>
+                <span>03:50</span>
+                <span><i class="far fa-1.5x playicons fa-play-circle" id="1"></i></span>
+            </div>
+            <div class="songitem">
+                <img src="/covers/2.jpg" alt="1">
+                <span>Trap</span>
+                <span>02:33</span>
+                <span><i class="far fa-1.5x playicons fa-play-circle" id="2"></i></span>
+            </div>
+            <div class="songitem">
+                <img src="/covers/3.jpg" alt="1">
+                <span>They Mad</span>
+                <span>04:33</span>
+                <span><i class="far fa-1.5x playicons fa-play-circle" id="3"></i></span>
+            </div>
+            <div class="songitem">
+                <img src="/covers/4.jpg" alt="1">
+                <span>Plug Walk</span>
+                <span>04:27</span>
+                <span><i class="far fa-1.5x playicons fa-play-circle" id="4"></i></span>
+            </div>
+            <div class="songitem">
+                <img src="/covers/5.jpg" alt="1">
+                <span>Heroes Tonight</span>
+                <span>03:28</span>
+                <span><i class="far fa-1.5x playicons fa-play-circle" id="5"></i></span>
+            </div>
+            <div class="songitem">
+                <img src="/covers/6.jpg" alt="1">
+                <span>Heroes Tonight(Instrumental)</span>
+                <span>03:28</span>
+                <span><i class="far fa-1.5x playicons fa-play-circle" id="6"></i></span>
+            </div>
+            <div class="songitem">
+                <img src="/covers/7.jpg" alt="1">
+                <span>Back It Up</span>
+                <span>04:33</span>
+                <span><i class="far fa-1.5x playicons fa-play-circle" id="7"></i></span>
+            </div>
+        </div>
+        <div class="songbanner">
+
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="currentsong">
+            <input type="range" min="0" max="100" id="playbar" value="0">
+        </div>
+        <div class="buttons">
+            <span class="playicons1">
+                <i class="fas fa-1.5x fa-step-backward" id="previous"></i>
+            </span>
+            <span class="playicons1">
+                <i class="far fa-1.5x fa-play-circle" id="masterPlay"></i>
+            </span>
+            <span class="playicons1">
+                <i class="fas fa-1.5x fa-step-forward" id="next"></i>
+            </span>
+        </div>
+        <div class="songinfo">
+            <img src="playing.gif" width="40px" height="20px" alt="1" id="gif">
+            <span id="SongName">
+                It's Always Blue
+            </span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/8ba4591dc3.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
